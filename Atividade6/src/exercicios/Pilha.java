@@ -14,7 +14,7 @@ public class Pilha {
 		do {
 			System.out.println("***********************");
 			System.out.println("Menu:");
-			System.out.println("1: Colocar um novo livro à pilha!");
+			System.out.println("1: Colocar um livro à pilha!");
 			System.out.println("2: Listar todos os livros da pilha!");
 			System.out.println("3: Retirar um livro da pilha!");
 			System.out.println("0: Finalizar o programa!");
@@ -43,7 +43,7 @@ public class Pilha {
 				break;
 			case 3:
 				if (livros.isEmpty()) {
-					System.out.println("Nenhum há livros para retirar.");
+					System.out.println("Não há livros para retirar.");
 				} else {
 					String livroRetirado = livros.pop();
 					System.out.println("Livro \"" + livroRetirado + "\" retirado da pilha.");
@@ -51,11 +51,11 @@ public class Pilha {
 				break;
 
 			case 0:
-				System.out.println("Programa finalizado.");
+				System.out.println("Programa finalizado!");
 				break;
 
 			default:
-				System.out.println("Opção inválida.");
+				System.out.println("Opção inválida!");
 			}
 		} while (opcao != 0);
 
