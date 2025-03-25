@@ -45,7 +45,7 @@ public class Fila {
 
 			case 3:
 				if (fila.isEmpty()) {
-					System.out.println("Não tem clientes a para chamar.");
+					System.out.println("Nenhum cliente aguarda atendimento!");
 				} else {
 					String cliente = fila.poll();
 					System.out.println(cliente + " foi chamado!");
